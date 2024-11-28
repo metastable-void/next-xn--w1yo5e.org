@@ -4,6 +4,8 @@
     flex-direction: row;
     justify-content: center;
     border-block-end: solid 1px var(--border);
+    position: sticky;
+    top: 0;
 }
 
 .tab-bar .tab {
