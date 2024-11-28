@@ -6,6 +6,7 @@
     border-block-end: solid 1px var(--border);
     position: sticky;
     top: 0;
+    background-color: var(--background);
 }
 
 .tab-bar .tab {
