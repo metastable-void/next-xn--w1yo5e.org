@@ -25,6 +25,12 @@ export default function Home() {
         <li><a href="https://soundcloud.com/metastable-void/sets/album-1">1</a></li>
         <li><a href="https://album.link/i/1772122332">Hue of the Air</a> - <a href="https://music.apple.com/jp/album/hue-of-the-air-single/1772122332?l=en-US">iTunes Store</a></li>
       </ul>
+      <h2>Fine arts & Web installations</h2>
+      <ul>
+        <li><a href="https://metastable-void.github.io/noiz/"><i>noiz</i> (2020)</a></li>
+        <li><a href="https://metastable-void.github.io/Pixel-Wall/"><i>Pixel Wall</i> (2019)</a></li>
+        <li><a href="https://metastable-void.github.io/Annual-Clock/clock.svg"><i>Annual Clock</i> (2015-2018)</a></li>
+      </ul>
       <h2>Graphical design</h2>
       <ul>
         <li>Logos and icons: <a href="https://www.menhera.org/">Menhera.org</a> logo/icon</li>
