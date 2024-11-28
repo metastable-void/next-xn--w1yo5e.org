@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import TabBar from "./components/TabBar";
 
@@ -7,17 +6,6 @@ import '@fontsource/lato/100.css';
 import '@fontsource/lato/300.css';
 import '@fontsource/lato/400.css';
 import '@fontsource/lato/700.css';
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 export const metadata: Metadata = {
   title: "真空.org",
@@ -32,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`antialiased`}
       >
         <TabBar tabs={[
           { text: "mori.yuka.org", linkUrl: "https://www.mori.yuka.org/" },
