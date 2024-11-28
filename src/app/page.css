@@ -22,6 +22,7 @@
 .site-main {
     margin-inline: auto;
     max-inline-size: 32rem;
+    padding-inline: 1rem;
 }
 
 .site-main h2 {
