@@ -1,0 +1,50 @@
+
+.site-header {
+    margin: 0;
+    text-align: center;
+    background: #677663 url(masora-bg.jpg) center / cover no-repeat;
+}
+
+.site-header-inner {
+    background-color: #aaa;
+    mix-blend-mode: screen;
+    padding-block: 8vmin;
+}
+.site-title {
+    font-size: 16vmin;
+    font-weight: bold;
+    margin: 0;
+}
+.site-domain {
+    font-size: 4vmin;
+}
+
+.site-main {
+    margin-inline: auto;
+    max-inline-size: 32rem;
+}
+
+.site-main h2 {
+    font-size: 2rem;
+    margin-block: 1rem;
+}
+
+.site-main h3 {
+    font-size: 1.5rem;
+    margin-block: .75rem;
+}
+
+.site-main a {
+    color: var(--accent);
+}
+
+.site-main p {
+    margin-block: 1rem;
+}
+
+.site-main ul {
+    margin-block: 1rem;
+    padding-inline-start: 1rem;
+    margin-inline-start: 1rem;
+    list-style: disc;
+}

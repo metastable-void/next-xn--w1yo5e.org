@@ -5,17 +5,29 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --accent: #5eaf30;
+  --border: #e0e0e0;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Lato, system-ui, sans-serif;
+}
+
+#footer {
+  margin-block-start: 1rem;
+  border-block-start: solid 1px var(--border);
+  padding-inline: 2rem;
+  padding-block: 0;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+#footer p {
+  margin-block: 1rem;
+}
+
+#footer a {
+  text-decoration: underline;
 }
