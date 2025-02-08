@@ -22,7 +22,7 @@ export default function Home() {
       <p>Soundcloud: <a href="https://soundcloud.com/metastable-void">metastable-void</a></p>
       <h3>Albums</h3>
       <ul>
-        <li><a href="https://soundcloud.com/metastable-void/sets/album-1">1</a></li>
+        <li><a href="https://album.link/i/1782520890">1</a> - <a href="https://music.apple.com/jp/album/1-ep/1782520890">iTunes Store</a></li>
         <li><a href="https://album.link/i/1772122332">Hue of the Air</a> - <a href="https://music.apple.com/jp/album/hue-of-the-air-single/1772122332?l=en-US">iTunes Store</a></li>
       </ul>
       <h2>Fine arts & Web installations</h2>
